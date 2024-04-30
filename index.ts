@@ -10,8 +10,6 @@ import chalk from "chalk";
  let answers = await inquirer.prompt([
     {
         name: "sentence",
-        type: "input",
-        message: "Enter a sentence",
     }
  ]);
 
